@@ -13,6 +13,8 @@ on:
   workflow_dispatch:
 
 jobs:
+  compliance:
+    uses: k-sau/.github/.github/workflows/main.yml@main
   build:
     runs-on: ubuntu-latest
 
